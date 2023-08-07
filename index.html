@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pumper</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <section class="main-cart-box">
+    <div class="cart-desing-box">
+      <div class="heading-box">
+        <div class="horizontal-line"></div>
+        <h1 class="main-heading">Bundle & Save</h1>
+        <div class="horizontal-line"></div>
+      </div>
+      <section>
+        <div class="container">
+          <ul>
+            <li onclick="ClickableTab(0,'pair-1')" class="common-btn">
+              <div class="offer-first">
+                <div class="offer-sub-fisrt">
+                  <div><input type="radio" name="name1" id="pair-1"></div>
+                  <div class="offer-sub-fisrt-1">
+                    <h5 class="pairheading">1 Pair</h5>
+                    <h4>DKK 195.00</h4>
+                  </div>
+                </div>
+                <div>
+                  <h4>50% off</h4>
+                </div>
+              </div>
+            </li>
+            <li onclick="ClickableTab(1, 'pair-2')" class="common-btn active">
+              <div class="offer-first-1">
+                <div class="offer-sub-fisrt">
+                  <div><input type="radio" name="name1" id="pair-2" checked></div>
+                  <div class="offer-sub-fisrt-1">
+                    <h5 class="pairheading">2 Pair</h5>
+                    <h4>DKK 345.00</h4>
+                  </div>
+                </div>
+                <div class="discountoffer">
+                  <h4><strike>DKK 195.00</strike></h4>
+                </div>
+                <div>
+                  <h4 class="mostpopular">Most Popular</h4>
+                  <h4 class="second-dis">40% off</h4>
+                </div>
+              </div>
+              <div class="sizeselect-mainsection">
+                <div style="display: flex; flex-direction: column;">
+                  <div>
+                    <h5 class="sizeheading">Size</h5>
+                    <div class="selectsize-sec">
+                      <h5>#1</h5>
+                      <div class="select">
+                        <select name="format" id="format">
+                          <option selected disabled>S</option>
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                          <option value="XXL">XXL</option>
+                          <option value="XXXL">XXXL</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h5 class="sizeheading">Size</h5>
+                    <div class="selectsize-sec">
+                      <h5>#2</h5>
+                      <div class="select">
+                        <select name="format" id="format">
+                          <option selected disabled>S</option>
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                          <option value="XXL">XXL</option>
+                          <option value="XXXL">XXXL</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="colormain-sec">
+                  <div>
+                    <h5 class="colorheading">Color</h5>
+                    <div style="display: flex;">
+                      <div class="select">
+                        <select name="format" id="format">
+                          <option selected disabled>Colors</option>
+                          <option value="RED">RED</option>
+                          <option value="YELLOW">YELLOW</option>
+                          <option value="BLUE">BLUE</option>
+                          <option value="GREEN">GREEN</option>
+                          <option value="BLACK">BLACK</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h5 class="colorheading">Color</h5>
+                    <div style="display: flex;">
+                      <div class="select">
+                        <select name="format" id="format">
+                          <option selected disabled>Colors</option>
+                          <option value="RED">RED</option>
+                          <option value="YELLOW">YELLOW</option>
+                          <option value="BLUE">BLUE</option>
+                          <option value="GREEN">GREEN</option>
+                          <option value="BLACK">BLACK</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li onclick="ClickableTab(2, 'pair-3')" class="common-btn">
+              <div class="offer-first">
+                <div class="offer-sub-fisrt">
+                  <div><input type="radio" name="name1" id="pair-3"></div>
+                  <div class="offer-sub-fisrt-1">
+                    <h5 class="pairheading">3 Pair</h5>
+                    <h4>DKK 528.00</h4>
+                  </div>
+                </div>
+                <div>
+                  <h4>60% off</h4>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="shipping-total-amount">
+          <h4 style="color:rgba(0, 127, 97, 0.65) ;">Free 2 Day Shipping</h4>
+          <h4>Total : DKK 360.00</h4>
+        </div>
+        <button class="add-to-cart">+ Add to Cart</button>
+      </section>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
